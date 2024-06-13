@@ -95,6 +95,7 @@ function Course({ }: Props) {
     const data: any = document.getElementById(`user${key}`);
     console.log("gffgdf", data);
     const doc = new jsPDF();
+    console.log(doc,"doc")
 
     html2canvas(data, { scale: 4 }).then((canvas: any) => {
       // document.body.appendChild(canvas);
