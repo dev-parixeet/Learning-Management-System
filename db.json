@@ -1,0 +1,28 @@
+{
+  "coursename": [
+    {
+      "logo": "/images/brand/brand-01.svg",
+      "name": "Google",
+      "course": "Computer Science",
+      "visitors": 3.5,
+      "revenues": "5,768",
+      "status": "view",
+      "sales": 590,
+      "conversion": 4.8,
+      "id": "50f8"
+    },
+    {
+      "0": {
+        "logo": "/images/brand/brand-01.svg",
+        "name": "Google",
+        "course": "Computer Science",
+        "visitors": 3.5,
+        "revenues": "5,768",
+        "status": "view",
+        "sales": 590,
+        "conversion": 4.8,
+        "id": "50f8"
+      }
+    }
+  ]
+}
