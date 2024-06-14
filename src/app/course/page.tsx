@@ -77,7 +77,7 @@ function Course({ }: Props) {
   const targetRef = useRef<any>();
 
   const formvalue = (item: any) => {
-    console.log(item, "Items");
+    console.log(item, "Itemsdd");
     coursename.push(item);
     console.log(coursename, "CoursePage......");
   };
