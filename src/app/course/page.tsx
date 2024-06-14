@@ -85,6 +85,7 @@ function Course({ }: Props) {
   // Assuming coursename is your list of courses
   const totalCourses = coursename.length;
   const totalPages = Math.ceil(totalCourses / PAGE_SIZE);
+  console.log(totalPages ,"total page number")
 
   // Handler for page change
   const onPageChange = (pageNumber: any) => {
