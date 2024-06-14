@@ -100,6 +100,7 @@ function Course({ }: Props) {
     html2canvas(data, { scale: 4 }).then((canvas: any) => {
       // document.body.appendChild(canvas);
       const imgData = canvas.toDataURL('image/png');
+      console.log(imgData);
       const pdf = new jsPDF('p', 'mm', 'a4');
       pdf.text("New Assignment Course", 70, 20);
       pdf.setTextColor(15, 173, 207)
