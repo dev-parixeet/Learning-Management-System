@@ -79,7 +79,7 @@ function Course({ }: Props) {
   const formvalue = (item: any) => {
     console.log(item, "ITEMSSSSSSSSS");
     coursename.push(item);
-    console.log(coursename, "CoursePage Data");
+    console.log(coursename, "CoursePage......");
   };
 
   // Assuming coursename is your list of courses
