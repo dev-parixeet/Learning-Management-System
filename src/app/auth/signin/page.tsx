@@ -43,6 +43,7 @@ const SignIn: React.FC = () => {
         console.log(response.data, "AAAAAAAAAA");
         if (response.data && response.data.token) {
           const loginTime = new Date();
+          console.log(loginTime,"Login Time");
           setCookie("token", response.data.token);
           setCookie("loginTime", loginTime);
           setCookie("token", values.email);
@@ -72,6 +73,7 @@ const SignIn: React.FC = () => {
 
   const handleTogglePassword = () => {
     setShowPassword((ShowPassword) => !ShowPassword);
+    console.log(setShowPassword,"setShowPassword")
   };
 
   return (
